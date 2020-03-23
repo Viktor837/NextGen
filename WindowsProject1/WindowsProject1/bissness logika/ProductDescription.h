@@ -1,14 +1,17 @@
 # pragma once
+#include "ItemID.h"
+#include "Money.h"
+#include <string>
 
 public class ProductDescription
 {
 private:
 	ItemID id;
 	Money price;
-	String description;
+	std::string description;
 public:
-	ProductDescription(ItemID id, Money price, String description);
+	ProductDescription(ItemID id, Money price, std::string description);
 	ItemID getItemId();
 	Money getPrice();
-	String getDescription();
+	std::string getDescription();
 }

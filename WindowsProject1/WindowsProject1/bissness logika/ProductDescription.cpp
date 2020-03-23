@@ -1,10 +1,12 @@
 #include "ProductDescription.h"
+#include "Money.h"
+#include "string"
 
-ProductDescription::ProductDescription(ItemID id, Money price, String description)
+ProductDescription::ProductDescription(ItemID id, Money price, std::string description)
 {
-	this.id = id;
-	this.price = price;
-	this.description = description;
+	this->id = id;
+	this->price = price;
+	this->description = description;
 }
 ItemID ProductDescription::getItemId()
 {
@@ -14,7 +16,7 @@ Money ProductDescription::getPrice()
 {
 	return price;
 }
-String  ProductDescription::getDescription()
+std::string  ProductDescription::getDescription()
 {
 	return description;
 }
