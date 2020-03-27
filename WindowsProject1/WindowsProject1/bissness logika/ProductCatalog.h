@@ -1,10 +1,12 @@
 #pragma once
-
+#include "ProductDescription.h"
+#include "ItemID.h"
+#include <map>
 public class Productcatalog
 {
 private:
-	Map<ItemID, ProductDescription>
-		descriptions = new HashMap() < ItemID, ProductDescription > ;
+	std::map<ItemID, ProductDescription> Map;
+	std::map<ItemID, ProductDescription> descriptions;
 public:
 	ProductCatalog();
 	ProductDescription getProductDescription(ItemID id);
