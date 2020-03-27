@@ -1,8 +1,4 @@
-### VisualStudio ###
-## Игнорировать временные файлы Visual Studio, результаты сборки и
-## файлы, созданные популярными расширениями Visual Studio.
-##
-## Получить последнюю версию от https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
 
 # Пользовательские файлы
 *.rsuser

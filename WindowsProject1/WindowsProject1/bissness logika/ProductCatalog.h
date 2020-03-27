@@ -5,9 +5,8 @@
 public class Productcatalog
 {
 private:
-	std::map<ItemID, ProductDescription> Map;
 	std::map<ItemID, ProductDescription> descriptions;
 public:
 	ProductCatalog();
-	ProductDescription getProductDescription(ItemID id);
+	//ProductDescription getProductDescription(ItemID id);
 }

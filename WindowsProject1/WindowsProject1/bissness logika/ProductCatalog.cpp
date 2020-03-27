@@ -8,11 +8,10 @@ Productcatalog::ProductCatalog()
 	Money price = new Money(3);
 	ProductDescription desc;
 	desc = new ProductDescription(id1, price, "товар 1");
-	descriptions.put(id1, desc);
-	desc = new ProductDescription(id2, price, "товар 2");
-	descriptions.put(id2, desc);
+	//descriptions.put(id1, desc);
 }
-ProductDescription Productcatalog::getProductDescription(ItemID id)
+/*ProductDescription Productcatalog::getProductDescription(ItemID id)
 {
 	return descriptions.get(id);
 }
+*/
