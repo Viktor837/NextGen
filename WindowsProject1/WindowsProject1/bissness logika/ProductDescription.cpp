@@ -4,9 +4,9 @@
 
 ProductDescription::ProductDescription(ItemID id, Money price, std::string description)
 {
-	this->id = id;
-	this->price = price;
-	this->description = description;
+	this . id = id;
+	this.price = price;
+	this.description = description;
 }
 ItemID ProductDescription::getItemId()
 {

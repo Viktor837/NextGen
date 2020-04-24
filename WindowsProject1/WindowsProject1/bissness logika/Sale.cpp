@@ -20,10 +20,10 @@ Money Sale::getTotal()
 {
 	Money total = new Money();
 	Money subtotal = null;
-	for (SalesLineItem lineItem : lineItems)
+	for ( SalesLineltem lineltem : lineltems)
 	{
-		subtotal = lineItem.getSubtotal();
-		total.add(subtotal);
+	subtotal = lineltem.getSubtotal();
+	total.add( subtotal );
 	}
 	return total;
 }

@@ -9,4 +9,3 @@ public:
 	SalesLineItem(ProductDescription desc, int quantity);
 	Money getSubtotal();
 	
-}

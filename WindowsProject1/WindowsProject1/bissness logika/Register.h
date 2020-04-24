@@ -3,8 +3,8 @@
 public class Register
 {
 private:
-	ProductCatalog catalog;
-	Sale CurrentSale;
+    ProductCatalog catalog;
+    Sale currentSale;
 public:
 	Register(ProductCatalog catalog);
 	void endSale();

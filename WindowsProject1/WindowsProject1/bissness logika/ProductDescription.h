@@ -8,7 +8,7 @@ public class ProductDescription
 private:
 	ItemID id;
 	Money price;
-	std::string description;
+	String description;
 public:
 	ProductDescription(ItemID id, Money price, std::string description);
 	ItemID getItemId();
